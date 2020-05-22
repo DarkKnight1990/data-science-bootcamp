@@ -7,3 +7,4 @@ Start the docker:
 docker run --rm --name data-science-bootcamp -p 8888:8888 --env="DISPLAY" -v "$PWD/notebooks:/home/ubuntu/notebooks" -d data-science-bootcamp
 
 
+docker run --rm --name data-science-bootcamp -p 8888:8888 --env="DISPLAY" -v "$PWD/notebooks:/home/ubuntu/notebooks" -d pikludey/data-science-bootcamp
